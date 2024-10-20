@@ -2,7 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffcccc;
+    height:70px;
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    padding-right: 16px;
     font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 .toplink{
@@ -28,4 +34,17 @@
     width: 100%; /* 画像の幅をスライドの幅に合わせる */
     height: auto; /* 高さは自動調整（画像のアスペクト比を保持） */
     object-fit: cover; /* 画像がスライドの領域にフィットするように調整 */
+  }
+  .slide-text{
+    position: absolute; /* 絶対位置で配置 */
+    top:50%;
+    left: 50%; /* 左から50%（中央揃え） */
+    transform: translate(-50%, -50%);
+    color: white; /* 文字色を白に設定 */
+    font-size: 24px; /* フォントサイズ */
+    background: rgba(0, 0, 0, 0.5); /* 半透明の背景色 */
+    padding: 10px 20px; /* 内側の余白 */
+    border-radius: 5px; /* 角を丸くする */
+    text-align: center; /* テキストを中央揃え */
+    z-index: 100;
   }
