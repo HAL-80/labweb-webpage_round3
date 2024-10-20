@@ -1,7 +1,12 @@
 .headwrap{
+    display: flex;
+    justify-content: space-between;
     font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
-.img{
+.toplink{
     width: 55px;
     height: 55px;
+}
+.headtext{
+ vertical-align: middle;   
 }
