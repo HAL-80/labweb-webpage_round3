@@ -1,12 +1,29 @@
 .headwrap{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #ffcccc;
     font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 .toplink{
+    margin-left: 16px;
     width: 55px;
     height: 55px;
 }
 .headtext{
- vertical-align: middle;   
+    margin: 16px;
+    color: #333;
+}
+.swipercontainer{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+.swiperslide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10p;
+    height: 10px;
+
 }
